@@ -4,7 +4,7 @@ shopping = {
 }
 
 shopping["kwiaciarnia"] = ["goździki", "tulipany"]
-amount = len(shopping['piekarnia']) + len(shopping['warzywniak'])
+amount = len(shopping['piekarnia']) + len(shopping['warzywniak']) + len(shopping['kwiaciarnia'])
 for i in range(len(shopping['piekarnia'])):
     shopping['piekarnia'][i] = shopping['piekarnia'][i].capitalize()
 for j in range(len(shopping['warzywniak'])):
