@@ -3,6 +3,7 @@ shopping = {
     "warzywniak" : ["marchew", "seler", "rukola"]
 }
 
+shopping["kwiaciarnia"] = ["goździki", "tulipany"]
 amount = len(shopping['piekarnia']) + len(shopping['warzywniak'])
 for i in range(len(shopping['piekarnia'])):
     shopping['piekarnia'][i] = shopping['piekarnia'][i].capitalize()
